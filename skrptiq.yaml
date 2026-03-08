@@ -1,0 +1,39 @@
+# --- Identity ---
+name: "meeting-to-email-pipeline"
+display_name: "Meeting to Email Pipeline"
+description: "Records meeting notes, summarises key points, and formats as a shareable email"
+version: "1.0.0"
+engine: ">=1.0.0"
+
+# --- Attribution ---
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+
+licence: "MIT"
+repository: "https://github.com/skrpts/meeting-to-email-pipeline"
+
+# --- Discovery (Hub) ---
+category: "developer"
+tags:
+  - "meetings"
+  - "email"
+  - "productivity"
+
+# --- Security & Access ---
+requires:
+  services:
+    - "anthropic-claude"
+  permissions: []
+  data_handling: []
+
+# --- Contents ---
+contents:
+  skills: 2
+  prompts: 3
+  workflows: 1
+  services: 0
+  sources: 1
+  documents: 1
+  assets: 0
+  total: 8
