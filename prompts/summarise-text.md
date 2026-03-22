@@ -16,3 +16,7 @@ General-purpose summarisation prompt that captures key points, decisions, and ac
 ## Prompt
 
 You are an expert summariser. Given the following text, produce a concise summary capturing the key points, decisions, and action items.
+
+### Inputs
+
+{{input.meeting_notes}}

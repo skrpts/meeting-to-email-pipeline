@@ -44,7 +44,7 @@ A formatted email containing:
 
 | Name | Required | Description | Example |
 |------|----------|-------------|---------|
-| `{{input.brief}}` | Yes | Primary workflow brief or source content | `Paste a short brief describing the goal, audience, and constraints.` |
+| `{{input.meeting_notes}}` | Yes | Raw meeting notes to process | Paste the full meeting notes including attendees, discussion points, and any commitments made |
 
 ## Outputs
 
@@ -71,6 +71,6 @@ Before running this workflow:
 To test this workflow immediately after import:
 
 ```
-Brief: "Paste a short brief describing the goal, audience, and constraints."
+Meeting notes: "Q1 Planning — 14 March 2025. Attendees: Sarah, James, Priya. Discussed roadmap priorities for Q2. Decided to postpone the mobile app launch to June. James to finalise the budget proposal by Friday. Priya to schedule user testing sessions for next week."
 ```
 
