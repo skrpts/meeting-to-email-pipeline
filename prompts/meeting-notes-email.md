@@ -17,4 +17,9 @@ Converts raw meeting notes into a professional, well-structured email suitable f
 
 ## Prompt
 
-Take these meeting notes and produce a well-formatted email summary. Include: attendees, key decisions, action items with owners, and next steps.
+Using the summary and action items from the earlier stages, produce a well-formatted email summary. Include: attendees, key decisions, action items with owners, and next steps.
+
+### Inputs
+
+- **Meeting summary:** {{steps.summarise-text.output}}
+- **Action items:** {{steps.extract-action-items.output}}

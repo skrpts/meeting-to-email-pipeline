@@ -2,7 +2,7 @@
 name: "meeting-to-email-pipeline"
 display_name: "Meeting to Email Pipeline"
 description: "Records meeting notes, summarises key points, and formats as a shareable email"
-version: "1.2.0"
+version: "1.3.0"
 engine: ">=1.0.0"
 
 # --- Attribution ---
