@@ -11,6 +11,8 @@ connections:
     type: uses
   - target: meeting-notes-email
     type: uses
+  - target: tone-adaptation
+    type: uses
 ---
 
 ## Overview
