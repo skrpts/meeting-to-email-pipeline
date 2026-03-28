@@ -13,6 +13,8 @@ connections:
     type: uses
   - target: tone-adaptation
     type: uses
+  - target: llm-service
+    type: runs_on
 ---
 
 ## Overview

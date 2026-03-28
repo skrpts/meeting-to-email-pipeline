@@ -7,8 +7,6 @@ tags: [Tested]
 connections:
   - target: llm-service
     type: runs_on
-  - target: meeting-protocol
-    type: references
 ---
 
 ## Capability
