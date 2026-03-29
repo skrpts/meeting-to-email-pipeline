@@ -3,7 +3,7 @@ type: document
 id: meeting-protocol
 title: Meeting Protocol
 description: "Standard protocol for conducting and documenting meetings"
-tags: [Production, writing:communication, communication:status]
+tags: [Production, Communication, Metrics]
 connections: []
 ---
 

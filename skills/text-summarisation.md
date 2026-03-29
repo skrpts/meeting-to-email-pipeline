@@ -3,7 +3,7 @@ type: skill
 id: text-summarisation
 title: Text Summarisation
 description: "Condenses long-form text into key points"
-tags: [Tested, writing:communication, communication:status]
+tags: [Tested, Communication, Metrics]
 connections:
   - target: llm-service
     type: runs_on

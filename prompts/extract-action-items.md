@@ -3,7 +3,7 @@ type: prompt
 id: extract-action-items
 title: Extract Action Items
 description: "Core prompt for identifying and structuring action items from text"
-tags: [Production, communication:team, utility:extraction]
+tags: [Production, Automation, Communication]
 connections:
   - target: action-item-extraction
     type: derived_from

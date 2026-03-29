@@ -3,7 +3,7 @@ type: skill
 id: action-item-extraction
 title: Action Item Extraction
 description: "Scans text for actionable commitments and structures them as tasks"
-tags: [Tested, communication:team, writing:communication]
+tags: [Tested, Communication, Metrics]
 connections:
   - target: llm-service
     type: runs_on

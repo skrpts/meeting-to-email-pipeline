@@ -3,7 +3,7 @@ type: workflow
 id: meeting-to-email-pipeline
 title: Meeting to Email Pipeline
 description: "Records meeting notes, summarises key points, extracts actions, and formats as email"
-tags: [Production, writing:communication, communication:status]
+tags: [Production, Communication, Metrics]
 connections:
   - target: text-summarisation
     type: uses

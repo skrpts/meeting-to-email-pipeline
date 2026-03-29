@@ -3,7 +3,7 @@ type: prompt
 id: meeting-notes-email
 title: Meeting Notes Email
 description: "Task prompt for converting meeting notes into a well-formatted email summary"
-tags: [Production, writing:communication, communication:status]
+tags: [Production, Communication, Metrics]
 connections:
   - target: text-summarisation
     type: derived_from
