@@ -15,6 +15,12 @@ connections:
     type: uses
   - target: llm-service
     type: runs_on
+  - target: extract-action-items
+    type: uses
+  - target: summarise-text
+    type: uses
+  - target: meeting-protocol
+    type: references
 ---
 
 ## Overview
