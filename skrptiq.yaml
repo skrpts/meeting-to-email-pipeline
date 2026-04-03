@@ -3,7 +3,7 @@ id: "0bec68e4-b3ec-449d-aa9f-143ee603448a"
 name: "meeting-to-email-pipeline"
 display_name: "Meeting to Email Pipeline"
 description: "Records meeting notes, summarises key points, and formats as a shareable email"
-version: "1.0.4"
+version: "1.1.0"
 engine: ">=1.0.0"
 
 # --- Attribution ---
@@ -30,11 +30,11 @@ requires:
 
 # --- Contents ---
 contents:
-  skills: 3
+  skills: 4
   prompts: 3
   workflows: 1
   services: 1
   sources: 1
   documents: 1
   assets: 0
-  total: 10
+  total: 11

@@ -21,6 +21,8 @@ connections:
     type: uses
   - target: meeting-protocol
     type: references
+  - target: language-polish
+    type: uses
 ---
 
 ## Overview
