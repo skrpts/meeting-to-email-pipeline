@@ -9,16 +9,10 @@ connections:
     type: uses
   - target: action-item-extraction
     type: uses
-  - target: meeting-notes-email
-    type: uses
   - target: tone-adaptation
     type: uses
   - target: llm-service
     type: runs_on
-  - target: extract-action-items
-    type: uses
-  - target: summarise-text
-    type: uses
   - target: meeting-protocol
     type: references
   - target: language-polish
