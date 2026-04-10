@@ -21,5 +21,5 @@ Using the summary and action items from the earlier stages, produce a well-forma
 
 ### Inputs
 
-- **Meeting summary:** {{steps.Text Summarisation.output}}
+- **Meeting summary:** {{steps.previous.output}}
 - **Action items:** {{steps.Action Item Extraction.output}}
