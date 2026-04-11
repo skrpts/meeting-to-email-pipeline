@@ -17,6 +17,14 @@ connections:
     type: references
   - target: language-polish
     type: uses
+execution:
+  - skill: "text-summarisation"
+  - skill: "action-item-extraction"
+    input_from: "text-summarisation"
+  - skill: "tone-adaptation"
+    input_from: "action-item-extraction"
+  - skill: "language-polish"
+    input_from: "tone-adaptation"
 ---
 
 ## Overview
