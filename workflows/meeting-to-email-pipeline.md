@@ -19,14 +19,6 @@ connections:
     type: uses
 execution:
   - skill: "text-summarisation"
-  - skill: "action-item-extraction"
-    input_from: "text-summarisation"
-  - skill: "tone-adaptation"
-    input_from: "action-item-extraction"
-  - skill: "language-polish"
-    input_from: "tone-adaptation"
-execution:
-  - skill: "text-summarisation"
     step_type: "synthesis"
   - skill: "action-item-extraction"
     step_type: "synthesis"
@@ -99,4 +91,3 @@ To test this workflow immediately after import:
 ```
 Meeting notes: "Q1 Planning — 14 March 2025. Attendees: Sarah, James, Priya. Discussed roadmap priorities for Q2. Decided to postpone the mobile app launch to June. James to finalise the budget proposal by Friday. Priya to schedule user testing sessions for next week."
 ```
-
