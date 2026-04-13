@@ -22,13 +22,10 @@ execution:
     step_type: "synthesis"
   - skill: "action-item-extraction"
     step_type: "synthesis"
-    input_from: "text-summarisation"
   - skill: "tone-adaptation"
     step_type: "content"
-    input_from: "action-item-extraction"
   - skill: "language-polish"
     step_type: "content"
-    input_from: "tone-adaptation"
 ---
 
 ## Overview
