@@ -17,6 +17,12 @@ connections:
     type: references
   - target: language-polish
     type: uses
+output_step: "tone-adaptation"
+composite_steps:
+  - "text-summarisation"
+  - "action-item-extraction"
+  - "tone-adaptation"
+  - "language-polish"
 execution:
   - skill: "text-summarisation"
     step_type: "synthesis"
