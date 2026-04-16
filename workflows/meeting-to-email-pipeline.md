@@ -30,6 +30,8 @@ execution:
     step_type: "synthesis"
   - skill: "tone-adaptation"
     step_type: "content"
+    context:
+      target_tone: "Professional and approachable"
   - skill: "language-polish"
     step_type: "content"
 ---
