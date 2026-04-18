@@ -26,6 +26,7 @@ composite_steps:
 execution:
   - skill: "text-summarisation"
     step_type: "synthesis"
+    prompt: "meeting-notes-email"
   - skill: "action-item-extraction"
     step_type: "synthesis"
   - skill: "tone-adaptation"
