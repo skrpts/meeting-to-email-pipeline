@@ -28,12 +28,15 @@ execution:
     step_type: "synthesis"
     prompt: "meeting-notes-email"
   - skill: "action-item-extraction"
+    prompt: "extract-action-items"
     step_type: "synthesis"
   - skill: "tone-adaptation"
+    prompt: "adapt-tone"
     step_type: "content"
     context:
       target_tone: "Professional and approachable"
   - skill: "language-polish"
+    prompt: "polish-language"
     step_type: "content"
 ---
 
