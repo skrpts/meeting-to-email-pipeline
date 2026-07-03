@@ -1,5 +1,8 @@
 # Release Notes
 
+## v1.1.29
+GH#745 — declare per-step `output: {name, type}` on every execution step (meeting_summary/text, action_items/list, toned_email/text, polished_email/text). Lights up the #744 rich flow-map. Content-only; no bindings or logic changes.
+
 ## v1.1.28
 GH#645 Row 3b — migrate to K-037 dep-referenced schema. Strip 12 inline shared-content files and declare 12 hub-shared deps (UUID id + slug name + version + checksum from `gen-dep-checksums.mjs`). Closes pre-Step-3 inline-vendoring for this bundle.
 

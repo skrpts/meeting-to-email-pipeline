@@ -27,17 +27,21 @@ execution:
   - skill: "text-summarisation"
     step_type: "synthesis"
     prompt: "meeting-notes-email"
+    output: { name: "meeting_summary", type: "text" }
   - skill: "action-item-extraction"
     prompt: "extract-action-items"
     step_type: "synthesis"
+    output: { name: "action_items", type: "list" }
   - skill: "tone-adaptation"
     prompt: "adapt-tone"
     step_type: "content"
+    output: { name: "toned_email", type: "text" }
     context:
       target_tone: "Professional and approachable"
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
+    output: { name: "polished_email", type: "text" }
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"

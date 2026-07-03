@@ -3,7 +3,7 @@ id: "0bec68e4-b3ec-449d-aa9f-143ee603448a"
 name: "meeting-to-email-pipeline"
 display_name: "Meeting to Email Pipeline"
 description: "Records meeting notes, summarises key points, and formats as a shareable email"
-version: "1.1.28"
+version: "1.1.29"
 engine: ">=0.1.0"
 
 # --- Attribution ---
@@ -88,3 +88,17 @@ contents:
   documents: 1
   assets: 0
   total: 3
+
+security:
+  status: "pass"
+  scanned_at: "2026-07-03T11:03:55.253Z"
+  scanner_version: "3.3.0"
+  syntactic: "pass"
+  structural: "pass"
+  detected:
+    services: ["llm-service"]
+    permissions: []
+    data_handling: []
+  undeclared: []
+  warnings: []
+  report_url: "https://hub.skrptiq.ai/skrpts/meeting-to-email-pipeline/security"
