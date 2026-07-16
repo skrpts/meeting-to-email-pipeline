@@ -2,7 +2,7 @@
 type: workflow
 id: meeting-to-email-pipeline
 title: Meeting to Email Pipeline
-description: "Records meeting notes, summarises key points, extracts actions, and formats as email"
+description: "Records meeting notes, summarizes key points, extracts actions, and formats as email"
 tags: [Production, Communication, Metrics]
 connections:
   - target: text-summarisation
@@ -49,11 +49,11 @@ execution:
 
 ## Overview
 
-This workflow takes raw meeting notes, processes them through summarisation and action item extraction, then formats the output as a professional email ready for distribution.
+This workflow takes raw meeting notes, processes them through summarization and action item extraction, then formats the output as a professional email ready for distribution.
 
 ## Pipeline Stages
 
-### Stage 1: Summarise
+### Stage 1: Summarize
 
 Invoke the **text-summarisation** skill against the raw meeting notes to produce a concise summary of key points and decisions.
 
@@ -91,7 +91,7 @@ A formatted email containing:
 Before running this workflow:
 
 1. No external services required — paste your content directly and provide any supporting context as inputs or source nodes.
-2. Review the included documents, assets, or source nodes and customise them to match your team, brand, or domain conventions where needed.
+2. Review the included documents, assets, or source nodes and customize them to match your team, brand, or domain conventions where needed.
 3. No specific AI provider or API key is required beyond your configured skrptiq LLM provider.
 
 ## Provider Notes
@@ -105,5 +105,5 @@ Before running this workflow:
 To test this workflow immediately after import:
 
 ```
-Meeting notes: "Q1 Planning — 14 March 2025. Attendees: Sarah, James, Priya. Discussed roadmap priorities for Q2. Decided to postpone the mobile app launch to June. James to finalise the budget proposal by Friday. Priya to schedule user testing sessions for next week."
+Meeting notes: "Q1 Planning — 14 March 2025. Attendees: Sarah, James, Priya. Discussed roadmap priorities for Q2. Decided to postpone the mobile app launch to June. James to finalize the budget proposal by Friday. Priya to schedule user testing sessions for next week."
 ```
