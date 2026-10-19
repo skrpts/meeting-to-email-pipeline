@@ -79,6 +79,7 @@ A formatted email containing:
 | Name | Required | Description | Example |
 |------|----------|-------------|---------|
 | `{{input.meeting_notes}}` | Yes | Raw meeting notes to process | Paste the full meeting notes including attendees, discussion points, and any commitments made |
+| `{{input.recipients}}` | No | Who this email is for — helps set the right tone and detail level | `Engineering team + product manager` |
 
 ## Outputs
 
